@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://www.gstatic.com/firebasejs/9.x.x/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.x.x/firebase-auth.js"></script>
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyAgmpK_E9vPdLukVsb6DTPaKrf3iDb0LN4",
+            authDomain: "seconddemo-5d09c.firebaseapp.com",
+            projectId: "seconddemo-5d09c",
+            storageBucket: "seconddemo-5d09c.appspot.com",
+            messagingSenderId: "62024665938",
+            appId: "1:62024665938:web:074db7ecba3d9efb9cc88b",
+            measurementId: "G-V51M9SLXQ6"
+        };
+        // Initialize Firebase
+        const app = firebase.initializeApp(firebaseConfig);
+        const auth = firebase.auth();
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Login</h1>
+        <form id="login-form">
+            <div class="text-box">
+                <input type="email" id="email" placeholder="Email" required>
+            </div>
+            <div class="text-box">
+                <input type="password" id="password" placeholder="Password" required>
+            </div>
+            <button type="submit">Login</button>
+            <p id="error-message"></p>
+        </form>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+    background-color: black; /* Set background color to black */
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white; /* Set title color to white */
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: black; /* Set input text color to black */
+    background-color: white; /* Set input background color to white */
+  }
+  
+  .add-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: black;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-button:hover {
+    background-color: #7FFF7F;
+  }
+  
+  .workouts-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .workout-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+  }
+  
+  .workout-text {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: black;
+  }
+  
+  .duration-text {
+    font-size: 14px;
+    color: #666;
+  }
+  
